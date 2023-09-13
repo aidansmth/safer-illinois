@@ -1,0 +1,21 @@
+
+[[navbar]]
+  identifier = "why"
+  name = "Why?"
+  url = "/why/"
+  weight = 1
+[[navbar]]
+  identifier = "plan"
+  name = "The Plan"
+  url = "/the-plan/"
+  weight = 2
+[[navbar]]
+  identifier = "supporters"
+  name = "Supporters"
+  url = "/supporters/"
+  weight = 3
+[[navbar]]
+  identifier = "get-involved"
+  name = "Get Involved"
+  url = "/get-involved/"
+  weight = 4
