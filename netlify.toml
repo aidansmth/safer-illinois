@@ -1,0 +1,6 @@
+[build.environment]
+HUGO_VERSION = "0.118.2"
+
+[dev]
+framework = "hugo"
+publish = "public"
