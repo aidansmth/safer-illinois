@@ -4,7 +4,9 @@
 <div class="image-row">
     {{ range first $maxImages $images }}
     <div class="image-container">
-        <img src="{{ .Permalink }}" alt="{{ .Title }}" />
+        <a href="{{ .Permalink }}" target="_blank"> <!-- Open the image in a new tab -->
+            <img class="do-not-zoom" src="{{ .Permalink }}" alt="{{ .Title }}" />
+        </a>
     </div>
     {{ end }}
 </div>
@@ -18,12 +20,16 @@
         /* Optional: Add some margin between the row and other content */
     }
 
-
     .image-container {
         display: flex;
         align-items: center;
         /* Vertically center the image within the container */
         margin-right: 10px;
         /* Optional: Add some margin between images */
+    }
+
+    /* Remove margin-right from the last element in image-container */
+    .image-container:last-child {
+        margin-right: 0;
     }
 </style>
