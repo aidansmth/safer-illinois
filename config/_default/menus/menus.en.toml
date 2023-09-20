@@ -5,9 +5,9 @@
   url = "/why/"
   weight = 1
 [[navbar]]
-  identifier = "plan"
-  name = "The Plan"
-  url = "/the-plan/"
+  identifier = "vision"
+  name = "Our Vision"
+  url = "/our-vision/"
   weight = 2
 [[navbar]]
   identifier = "supporters"
@@ -15,7 +15,7 @@
   url = "/supporters/"
   weight = 3
 [[navbar]]
-  identifier = "get-involved"
-  name = "Get Involved"
-  url = "/get-involved/"
+  identifier = "take-action"
+  name = "Take Action"
+  url = "/take-action/"
   weight = 4
