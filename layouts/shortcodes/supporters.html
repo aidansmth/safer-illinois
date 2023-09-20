@@ -1,0 +1,41 @@
+<div class="supporter-logos">
+    {{ range .Page.Resources.Match "images/*.{png,svg}" }}
+    {{ $filenameTrimmed := .Name | replaceRE "^images/" "" | replaceRE "\\..*$" "" }}
+    {{ $decodedLink := $filenameTrimmed | base64Decode }}
+    <div class="image-container">
+        <a href="{{ $decodedLink }}" target="_blank"> <!-- Open the sponsor's website in a new tab -->
+            <img class="do-not-zoom" src="{{ .Permalink }}" alt="{{ .Title }}" />
+        </a>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .supporter-logos {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        /* 6 columns with equal width */
+        gap: 20px;
+        /* Adjust this to control spacing between logos */
+    }
+
+    .image-container {
+        /* border: 1px solid #ddd; */
+        /* Optional border, can remove or adjust */
+        overflow: hidden;
+        /* Hide parts of the image that are outside the container */
+        width: 100%;
+        /* Make sure container occupies full width of grid cell */
+        aspect-ratio: 1/1;
+        /* Make the container a square shape; Can adjust if needed */
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        /* Resize image to cover entire container */
+        object-position: center;
+        /* Center the image within the container */
+    }
+</style>
