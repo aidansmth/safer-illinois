@@ -1,0 +1,107 @@
+---
+navbar_title: "Safer Illinois"
+type: 'blank'
+---
+<div class="action-box">
+    <div style="text-align: center;">
+        <p style="margin: 0px">
+            Please join us in urging the city to make Illinois St. safer!
+        </p>
+        <p>
+            Feel free to make the email your own or just click
+            send after clicking the button below.
+
+            Unless you opt out, we’ll also send you the very occasional email to keep you posted on progress and events
+            for
+            Safer Illinois.
+        </p>
+    </div>
+    <label class="checkbox-container">
+        <input type="checkbox" checked>
+        <span class="checkmark"></span>
+        Send me occasional updates on Safer Illinois.
+    </label>
+    <button class="email-button" onclick="openEmailClient()">Email the SFMTA!</button>
+</div>
+<script>
+    function openEmailClient() {
+        var recipient = ["mtaboard@sfmta.com", "sustainable.streets@sfmta.com", "waltonstaff@sfgov.org", "jenica.liu@sfport.com", "mayorlondonbreed@sfgov.org", "alexandra.c.sweet@sfgov.org"];
+        var ccRecipients = ["d10livablestreets@gmail.com"];
+        // If checkbox is checked then add our email to cc list
+        if (document.querySelector('input[type="checkbox"]').checked) {
+            ccRecipients.push("contact@safe-illinois.org");
+        }
+        var subject = "Support for Illinois St. Safety Improvements";
+        var body = `Dear SFMTA Board of Directors,
+        
+I am writing to ask you to make Illinois Street safe for bikes. Protected bike lanes on Illinois St. should be a priority in the coming months for inclusion in the 80 miles of quick builds pledged by Mayor Breed.
+
+A protected bike route on Illinois would connect Cargo Way to Terry Francois, forming a 3+ mile protected bikeway along the Bay. This route would allow Hunter’s Point and Bayview residents to get to downtown safely, give families safe access to some of the best parks on the east side of the city, and connect to important east-west bike routes to get people safely to work, school, and businesses.
+
+Illinois Street would be a centerpiece of the Active Communities Plan supporting the shift to active transportation needed to achieve our Vision Zero and Climate Action Plan goals.
+
+I am writing to urge SFMTA staff and board to complete this project quickly.
+
+Thank you.
+        `
+        // Create an array of CC recipients.
+        var ccString = ccRecipients.join(",");
+
+        var mailtoLink = "mailto:" + recipient + "?cc=" + ccString + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+        // Open the email client with the pre-filled information.
+        window.location.href = mailtoLink;
+    }
+</script>
+
+<style>
+    .action-box {
+        /* A light grey flexbox that takes up 80% of it's parent space and is centered horizontally */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+        border: 1px solid black;
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .email-button {
+        border: 1px solid black;
+        padding: 12px 16px;
+        /* Adjust padding as needed */
+        font-size: 16px;
+        /* Adjust font size as needed */
+        background-color: transparent;
+        /* Transparent background */
+        cursor: pointer;
+        /* Change cursor on hover */
+        text-decoration: none;
+        /* Remove default underline */
+        display: inline-block;
+        /* Make the button inline-block so it's centered horizontally */
+    }
+
+    /* Add underline when the user hovers over the button */
+    .email-button:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        background-color: #dbdbdb;
+    }
+
+    .checkbox {
+        display: inline-block;
+        font-size: 22px;
+        margin-right: 20px;
+        background-color: deeppink;
+        /* Blue */
+    }
+
+    .checkbox-container {
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+</style>
