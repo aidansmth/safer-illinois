@@ -1,0 +1,11 @@
+baseURL = 'https://safer-illinois.netlify.app/'
+languageCode = 'en-us'
+title = 'Safer Illinois'
+theme = "hugo-theme-monochrome"
+
+[params]
+navbar_title = "Safer Illinois"
+author = "Aidan Smith" # default: no author `meta` tag
+enable_collapsible_toc = false # default: false
+enable_collapsible_changelogs = false # default: false
+assetDir = "/assets"

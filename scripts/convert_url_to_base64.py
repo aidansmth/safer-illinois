@@ -1,7 +1,7 @@
 import base64
 import os
 
-url = "https://www.livablecity.org/"
+url = "https://www.rickshawbags.com/"
 encoded_url = base64.urlsafe_b64encode(url.encode()).decode()
 
 # You may need to truncate or modify the encoded URL to fit within the character limit.
