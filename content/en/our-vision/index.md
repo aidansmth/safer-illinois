@@ -41,4 +41,4 @@ Safer Illinois proposes a 10’ to 12’ bidirectional bikeway along the east si
 
 The SFMTA and the SF Port have NOT weighed in on these drafts, so please see them as proof of concept rather than fait acompli. But if you wanna nerd out and dig in, have at it! Let us know what you think. 
 
-[Download the draft diagram here](illinois-draft-designs.pdf)
+[Download the draft diagram here](documents/Illinois-St-Draft-Designs.pdf)
