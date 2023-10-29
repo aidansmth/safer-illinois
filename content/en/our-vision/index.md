@@ -21,7 +21,7 @@ Parked cars would keep bikes and scooters well removed from the large trucks and
 
 #### No Downsides
 
-Illinois is wide enough that we can fit a high-quality, fully-protected bidirectional bikeway on the street with almost no parking losses! All while keeping bikes and scooters safe also keeps them out of the way of cars and trucks.
+Illinois is wide enough that we can fit a high-quality, fully-protected bidirectional bikeway on the street with almost no parking losses! All while keeping bikes and scooters out of the way of cars and trucks.
 
 Daylighting the corners to make the corridor safer for pedestrians will necessitate removal of a few spaces at the intersections on both sides of the street. Removal of a few more spaces may be needed to ensure that trucks have adequate space to back into docks. 
 
@@ -39,6 +39,6 @@ The painted bikes lanes, which are well within the door zone of parked cars, are
 
 Safer Illinois proposes a 10’ to 12’ bidirectional bikeway along the east side of Illinois, bordered by a 4’ buffer to keep users away from the door zone of parked cars. The parking configurations along either side of the street would be largely unchanged. 
 
-The SFMTA and the SF Port have NOT weighed in on these drafts, so please see them as proof of concept rather than fait acompli. But if you wanna nerd out and dig in, have at it! Let us know what you think. 
+The SFMTA and the SF Port have NOT weighed in on these drafts, so please see them as proof of concept rather than fait acompli. But if you wanna nerd out and dig in, have at it! You can let us know what you think at [contact@safe-illinois.org](mailto:contact@safe-illinois.org).
 
 [Download the draft diagram here](documents/Illinois-St-Draft-Designs.pdf)
