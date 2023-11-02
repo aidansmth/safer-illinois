@@ -1,5 +1,6 @@
 ---
 toc: false
+title: "Our Vision"
 ---
 *Our vision for Safer Illinois is a high-quality, protected two-way bikeway.*
 

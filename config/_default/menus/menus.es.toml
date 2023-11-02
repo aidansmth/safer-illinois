@@ -1,0 +1,20 @@
+[[navbar]]
+  identifier = "why"
+  name = "¿Por qué?"
+  url = "/es/why/"
+  weight = 1
+[[navbar]]
+  identifier = "vision"
+  name = "Nuestra visión"
+  url = "/es/our-vision/"
+  weight = 2
+[[navbar]]
+  identifier = "supporters"
+  name = "¿Quiénes apoyan el proyecto?"
+  url = "/es/supporters/"
+  weight = 3
+[[navbar]]
+  identifier = "take-action"
+  name = "¡Actua!"
+  url = "/es/take-action/"
+  weight = 4

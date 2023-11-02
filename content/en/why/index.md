@@ -1,5 +1,6 @@
 ---
 toc: false
+title: "Why?"
 ---
 *Our plan safely connects communities and promotes healthy and green alternatives.*
 
@@ -27,4 +28,4 @@ In addition to reducing accidents along the actual route, Safer Illinois would d
 
 #### Health & Environment
 
-As it is widely supported and without any active opposition, Safer Illinois could be a quick win and a nice showpiece for the buildout of SFMTA’s Active Communities Plan bike network. By bridging a critical gap, Safer Illinois will get people out of their cars and onto healthiest and the cleanest mode of transport available. And, yes, we do need to pick up the pace to meet San Francisco’s Climate Action Plan, requiring that “by 2030, 80% of all trips are low-carbon (e.g. transit, walking and biking).”  
+As it is widely supported and without any active opposition, Safer Illinois could be a quick win and a nice showpiece for the buildout of SFMTA’s Active Communities Plan bike network. By bridging a critical gap, Safer Illinois will get people out of their cars and onto the healthiest and cleanest mode of transport available. And, yes, we do need to pick up the pace to meet San Francisco’s Climate Action Plan, requiring that “by 2030, 80% of all trips are low-carbon (e.g. transit, walking and biking).”  

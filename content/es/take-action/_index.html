@@ -1,0 +1,105 @@
+---
+navbar_title: "Safer Illinois"
+type: 'blank'
+title: "¡Actua!"
+---
+<div class="action-box">
+    <div style="text-align: center;">
+        <p style="margin: 0px">
+            Únete a nosotros para pedir a la ciudad una calle Illinois más segura.
+        </p>
+        <p>
+            Personoliza tu mensaje de correo electronico o simplemente haz clic en enviar despues de hacer clic.
+
+            A menos que optes por no hacerlo, tambien te enviaremos un correo electronico ocasional para mantenerte informado sobre el progreso y los eventos de Safer Illinois.
+        </p>
+    </div>
+    <label class="checkbox-container">
+        <input type="checkbox" checked>
+        <span class="checkmark"></span>
+        Envienme actualizaciones ocasionales sobre Safer Illinois.
+    </label>
+    <button class="email-button" onclick="openEmailClient()">Enviar correo electronico a la SFMTA</button>
+</div>
+<script>
+    function openEmailClient() {
+        var recipient = ["mtaboard@sfmta.com", "sustainable.streets@sfmta.com", "waltonstaff@sfgov.org", "jenica.liu@sfport.com", "mayorlondonbreed@sfgov.org", "alexandra.c.sweet@sfgov.org"];
+        var ccRecipients = ["d10livablestreets@gmail.com"];
+        // If checkbox is checked then add our email to cc list
+        if (document.querySelector('input[type="checkbox"]').checked) {
+            ccRecipients.push("contact@safe-illinois.org");
+        }
+        var subject = "Apoyo las mejoras de seguridad de Illinois St.";
+        var body = `Estimados junta directiva de la SFMTA,
+        
+Escribo para pedirles que hagan que la calle Illinois sea segura para las bicicletas. Los carriles protegidos para bicicletas en la calle Illinois deberían ser una prioridad en los próximos meses para su inclusión en las 80 millas de construcciones rápidas prometidas por la alcaldesa Breed.
+
+Una ruta protegida para bicicletas en Illinois conectaría Cargo Way con Terry Francois, formando una vía protegida de más de 3 millas a lo largo de la bahía. Esta ruta permitiría a los residentes de Hunter's Point y Bayview llegar al centro de la ciudad de manera segura, daría a las familias un acceso seguro a algunos de los mejores parques del lado este de la ciudad y se conectaría con importantes rutas de bicicletas de este a oeste para que las personas puedan llegar de manera segura al trabajo, la escuela y los negocios.
+
+La calle Illinois sería una pieza central del Plan de Comunidades Activas que respalda el cambio al transporte activo necesario para lograr nuestros objetivos del proyecto Vision Zero y del Plan de Acción Climática.
+
+Escribo para instar al personal y la junta de la SFMTA a que completen este proyecto rápidamente.
+
+Gracias.
+        `
+        // Create an array of CC recipients.
+        var ccString = ccRecipients.join(",");
+
+        var mailtoLink = "mailto:" + recipient + "?cc=" + ccString + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+        // Open the email client with the pre-filled information.
+        window.location.href = mailtoLink;
+    }
+</script>
+
+<style>
+    .action-box {
+        /* A light grey flexbox that takes up 80% of it's parent space and is centered horizontally */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+        border: 1px solid black;
+        width: 90%;
+        margin: auto;
+        padding: 15px;
+    }
+
+    .email-button {
+        border: 1px solid black;
+        padding: 12px 16px;
+        /* Adjust padding as needed */
+        font-size: 16px;
+        /* Adjust font size as needed */
+        background-color: transparent;
+        /* Transparent background */
+        cursor: pointer;
+        /* Change cursor on hover */
+        text-decoration: none;
+        /* Remove default underline */
+        display: inline-block;
+        /* Make the button inline-block so it's centered horizontally */
+    }
+
+    /* Add underline when the user hovers over the button */
+    .email-button:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        background-color: #dbdbdb;
+    }
+
+    .checkbox {
+        display: inline-block;
+        font-size: 22px;
+        margin-right: 20px;
+        background-color: deeppink;
+        /* Blue */
+    }
+
+    .checkbox-container {
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+</style>
