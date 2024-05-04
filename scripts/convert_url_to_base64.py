@@ -1,8 +1,9 @@
+"""Quick script to convert a URL to a base64 encoded string and use it as a filename."""
 import base64
 import os
 
-url = "https://www.rickshawbags.com/"
-encoded_url = base64.urlsafe_b64encode(url.encode()).decode()
+URL = "https://marcellaslasagneria.net/"
+encoded_url = base64.urlsafe_b64encode(URL.encode()).decode()
 
 # You may need to truncate or modify the encoded URL to fit within the character limit.
 # Then, you can create your filename.
