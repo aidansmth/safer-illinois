@@ -22,11 +22,11 @@ Parked cars would keep bikes and scooters well removed from the large trucks and
 
 #### No Downsides
 
-Illinois is wide enough that we can fit a high-quality, fully-protected bidirectional bikeway on the street with almost no parking losses! All while keeping bikes and scooters out of the way of cars and trucks.
+Illinois is wide enough that we can fit a high-quality, fully protected bidirectional bikeway on the street with almost no parking losses, all while keeping bikes and scooters out of the way of cars and trucks.
 
-Daylighting the corners to make the corridor safer for pedestrians will necessitate removal of a few spaces at the intersections on both sides of the street. Removal of a few more spaces may be needed to ensure that trucks have adequate space to back into docks. 
+[Daylighting](https://www.sfmta.com/getting-around/walk/daylighting) the corners to make the corridor safer for pedestrians will necessitate removing a few spaces at the intersections on both sides of the street, but these changes would have been required by California law in any case. Removal of a few more spaces may be needed to ensure delivery trucks have adequate space to access loading docks.
 
-So far, we’ve talked with more than 50 businesses and organizations and not one has been opposed. Many of the businesses have staff or owners that bike along Illinois to get to work.
+We have more than 35 supporters, including many local businesses whose team members bike along Illinois to get to work.
 
 #### Current Status
 
@@ -43,3 +43,7 @@ Safer Illinois proposes a 10’ to 12’ bidirectional bikeway along the east si
 The SFMTA and the SF Port have NOT weighed in on these drafts, so please see them as proof of concept rather than fait acompli. But if you wanna nerd out and dig in, have at it! You can let us know what you think at [contact@safe-illinois.org](mailto:contact@safe-illinois.org).
 
 [Download the draft diagram here](documents/Illinois-St-Draft-Designs.pdf)
+
+#### Islais Creek Bridge
+
+While not included in our draft plan, improvements to the Islais Creek bridge and its approach are needed to make Illinois St. a reliably safe and low-stress bike route. Fixing the crossing would require the Port to work with SFMTA on an improved approach, especially on the east side, which has railroad track crossings, no sidewalk, and a narrow painted lane. Ideally, improvements would enable the bidirectional pathway to continue over Islais Creek by substantially widening the narrow sidewalk space on the east side of the bridge or by building a stand-alone bike and pedestrian bridge to continue the bike route. More immediately, the bridge could be improved with roadway repairs and resurfacing, potentially with separate signaling to allow safe bike crossing using the vehicle lanes. Some of these improvements could be a part of the DPW mitigation plan for [renovating the 3rd St bridge](http://sfpublicworks.org/Islais-Creek-Bridge), while the [Waterfront Resilience Program](https://sfport.com/wrp) could incorporate others.
