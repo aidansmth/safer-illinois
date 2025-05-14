@@ -2,7 +2,7 @@
 import base64
 import os
 
-URL = "https://marcellaslasagneria.net/"
+URL = "https://sbrmbna.com/"
 encoded_url = base64.urlsafe_b64encode(URL.encode()).decode()
 
 # You may need to truncate or modify the encoded URL to fit within the character limit.

@@ -9,49 +9,47 @@ title: "Take Action"
             Please join us in urging the city to make Illinois St. safer!
         </p>
         <p>
-            Feel free to make an email your own or just click
-            send after clicking the button below.
+            <!-- Feel free to make an email your own or just click -->
+            Click the link below to send an email to the Mayor and SFMTA.
 
-            Unless you opt out, we’ll also send you the very occasional email to keep you posted on progress and events
-            for
-            Safer Illinois.
+            We’ll also send you occasional emails to keep you posted on progress and events for Safer Illinois.
         </p>
     </div>
-    <label class="checkbox-container">
+    <!-- <label class="checkbox-container">
         <input type="checkbox" checked>
         <span class="checkmark"></span>
         Send me occasional updates on Safer Illinois.
-    </label>
+    </label> -->
     <button class="email-button" onclick="openEmailClient()">Email the SFMTA!</button>
 </div>
 <script>
     function openEmailClient() {
-        var recipient = ["mtaboard@sfmta.com", "sustainable.streets@sfmta.com", "waltonstaff@sfgov.org", "jenica.liu@sfport.com", "mayorlondonbreed@sfgov.org", "alexandra.c.sweet@sfgov.org"];
-        var ccRecipients = ["d10livablestreets@gmail.com"];
-        // If checkbox is checked then add our email to cc list
-        if (document.querySelector('input[type="checkbox"]').checked) {
-            ccRecipients.push("contact@safe-illinois.org");
-        }
-        var subject = "Support for Illinois St. Safety Improvements";
-        var body = `Dear SFMTA Board of Directors,
+//         var recipient = ["mtaboard@sfmta.com", "sustainable.streets@sfmta.com", "waltonstaff@sfgov.org", "jenica.liu@sfport.com", "mayorlondonbreed@sfgov.org", "alexandra.c.sweet@sfgov.org"];
+//         var ccRecipients = ["d10livablestreets@gmail.com"];
+//         // If checkbox is checked then add our email to cc list
+//         if (document.querySelector('input[type="checkbox"]').checked) {
+//             ccRecipients.push("contact@safe-illinois.org");
+//         }
+//         var subject = "Support for Illinois St. Safety Improvements";
+//         var body = `Dear SFMTA Board of Directors,
         
-I am writing to ask you to make Illinois Street safe for bikes. Protected bike lanes on Illinois St. should be a priority in the coming months for inclusion in the 80 miles of quick builds pledged by Mayor Breed.
+// I am writing to ask you to make Illinois Street safe for bikes. Protected bike lanes on Illinois St. should be a priority in the coming months for inclusion in the 80 miles of quick builds pledged by Mayor Breed.
 
-A protected bike route on Illinois would connect Cargo Way to Terry Francois, forming a 3+ mile protected bikeway along the Bay. This route would allow Hunter’s Point and Bayview residents to get to downtown safely, give families safe access to some of the best parks on the east side of the city, and connect to important east-west bike routes to get people safely to work, school, and businesses.
+// A protected bike route on Illinois would connect Cargo Way to Terry Francois, forming a 3+ mile protected bikeway along the Bay. This route would allow Hunter’s Point and Bayview residents to get to downtown safely, give families safe access to some of the best parks on the east side of the city, and connect to important east-west bike routes to get people safely to work, school, and businesses.
 
-Illinois Street would be a centerpiece of the Active Communities Plan supporting the shift to active transportation needed to achieve our Vision Zero and Climate Action Plan goals.
+// Illinois Street would be a centerpiece of the Active Communities Plan supporting the shift to active transportation needed to achieve our Vision Zero and Climate Action Plan goals.
 
-I am writing to urge SFMTA staff and board to complete this project quickly.
+// I am writing to urge SFMTA staff and board to complete this project quickly.
 
-Thank you.
-        `
-        // Create an array of CC recipients.
-        var ccString = ccRecipients.join(",");
+// Thank you.
+//         `
+//         // Create an array of CC recipients.
+//         var ccString = ccRecipients.join(",");
 
-        var mailtoLink = "mailto:" + recipient + "?cc=" + ccString + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+//         var mailtoLink = "mailto:" + recipient + "?cc=" + ccString + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
         // Open the email client with the pre-filled information.
-        window.location.href = mailtoLink;
+        window.location.href = 'https://tinyurl.com/safeillinois';
     }
 </script>
 

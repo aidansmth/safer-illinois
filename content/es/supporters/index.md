@@ -29,3 +29,6 @@ title: "¿Quines apoyan el proyecto?"
     box-sizing: border-box; /* Include padding and border in the width */
 }
 </style>
+
+#### Cartas de apoyo
+[Mission Bay Citizens Advisory Committee](/MB-CAC-Letter-of-Support.pdf)

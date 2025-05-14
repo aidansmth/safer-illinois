@@ -30,3 +30,6 @@ title: "Our Supporters"
     box-sizing: border-box; /* Include padding and border in the width */
 }
 </style>
+
+#### Letters of Support
+[Mission Bay Citizens Advisory Committee](/MB-CAC-Letter-of-Support.pdf)
