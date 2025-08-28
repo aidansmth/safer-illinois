@@ -34,6 +34,7 @@ title: "¿Quines apoyan el proyecto?"
 .supporters-map {
     border: none;
     border-radius: 8px;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
