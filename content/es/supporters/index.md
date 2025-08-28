@@ -15,6 +15,8 @@ title: "¿Quines apoyan el proyecto?"
 
 #### Estos negocios nos respaldan
 
+<iframe src='https://data.transpomaps.org/external/safer-illinois/supportive-businesses-map' width="100%" height="700" class="supporters-map"></iframe>
+
 {{< supporters >}}
 
 <style>
@@ -27,6 +29,23 @@ title: "¿Quines apoyan el proyecto?"
     flex: 1; /* Equal width for both videos */
     margin-right: 1rem; /* 1rem margin between videos (adjust as needed) */
     box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.supporters-map {
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .supporters-map {
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .supporters-map {
+        height: 300px;
+    }
 }
 </style>
 
